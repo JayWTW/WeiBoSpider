@@ -2,7 +2,7 @@
 ===
 复赛排名73，线上1.466856
 
-##文件目录
+# 文件目录
 ```
 |-bert
     |-data # 该文件夹下存储用于获取预训练bert中position embedding和segment embedding的自定义数据
@@ -64,10 +64,10 @@
     |-logger.py # 输出日志代码
     |-plot_picture.py # 画曲线图代码
 ```
-##运行环境 
+## 运行环境 
 python 3.5.2, tensorflow-gpu=1.11.0
 
-##运行顺序
+## 运行顺序
 ```
 0、切换到bert目录，运行python run_bert_classifier.py，得到bert中positiion embedding和segment embedding
 
